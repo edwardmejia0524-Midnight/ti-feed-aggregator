@@ -22,6 +22,7 @@ ti-feed-aggregator/
 │   └── normalized_iocs.json  # Standardized output feed
 ├── src/
 │   └── aggregator.py         # Core execution and normalization script
+├── .gitignore                # Git ignore exclusions
 ├── requirements.txt          # Python package dependencies
 └── README.md                 # Technical project documentation
 ```
