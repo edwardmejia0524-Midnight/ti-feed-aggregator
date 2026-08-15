@@ -20,10 +20,10 @@ ti-feed-aggregator/
 │   └── sources.json          # Threat intelligence source definitions
 ├── output/
 │   └── normalized_iocs.json  # Standardized output feed
-├── src/                       # Supporting package modules
-├── aggregator.py              # Core execution and normalization script
-├── requirements.txt           # Python package dependencies
-└── README.md                  # Technical project documentation
+├── src/
+│   └── aggregator.py         # Core execution and normalization script
+├── requirements.txt          # Python package dependencies
+└── README.md                 # Technical project documentation
 ```
 
 ## 3. Implementation Details
@@ -32,7 +32,7 @@ ti-feed-aggregator/
 
 Defines external ingestion endpoints, data types (IP, domain, hash), refresh cadences, and source enablement flags to govern data collection streams.
 
-### Normalization Engine (`aggregator.py`)
+### Normalization Engine (`src/aggregator.py`)
 
 The core Python script executes the following modular workflow:
 
@@ -46,7 +46,7 @@ The core Python script executes the following modular workflow:
 To run the aggregation script locally:
 
 ```bash
-python3 aggregator.py
+python3 src/aggregator.py
 ```
 
 **Execution Output & Verification**
