@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "name": "AbuseIPDB_Sample",
+      "type": "ip",
+      "refresh_interval_hours": 6,
+      "enabled": true
+    },
+    {
+      "name": "PhishTank_Sample",
+      "type": "domain",
+      "refresh_interval_hours": 12,
+      "enabled": true
+    }
+  ]
+}

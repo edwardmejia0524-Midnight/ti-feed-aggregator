@@ -1,0 +1,41 @@
+{
+    "metadata": {
+        "generated_at": "2026-08-15T18:07:29.369605Z",
+        "total_indicators": 4,
+        "schema_version": "1.0"
+    },
+    "indicators": [
+        {
+            "indicator": "192.0.2.45",
+            "type": "ipv4",
+            "threat_type": "c2_server",
+            "confidence": "high",
+            "source": "AbuseIPDB_Sample",
+            "first_seen": "2026-08-15T18:07:29.369605Z"
+        },
+        {
+            "indicator": "203.0.113.88",
+            "type": "ipv4",
+            "threat_type": "brute_force",
+            "confidence": "medium",
+            "source": "AbuseIPDB_Sample",
+            "first_seen": "2026-08-15T18:07:29.369605Z"
+        },
+        {
+            "indicator": "malicious-phishing-login.example.com",
+            "type": "domain",
+            "threat_type": "credential_harvesting",
+            "confidence": "high",
+            "source": "PhishTank_Sample",
+            "first_seen": "2026-08-15T18:07:29.369605Z"
+        },
+        {
+            "indicator": "44d88612fea8a8f36de82e1278abb02f",
+            "type": "md5_hash",
+            "threat_type": "ransomware_payload",
+            "confidence": "high",
+            "source": "MalwareBazaar_Sample",
+            "first_seen": "2026-08-15T18:07:29.369605Z"
+        }
+    ]
+}
