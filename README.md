@@ -52,4 +52,4 @@ python3 src/aggregator.py
 
 **Execution Output & Verification**
 
-![Execution Output & Verification] (assets/execution.png)
+![Execution Output & Verification](assets/execution.png)
