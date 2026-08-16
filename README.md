@@ -7,7 +7,7 @@ The `ti-feed-aggregator` is a Python-based security automation utility engineere
 ## 2. Environment & Architecture
 
 - **Programming Language**: Python 3.x
-- **Configuration Source**: Multi-source JSON mapping (`config/sources.json`)
+- **Configuration Source**: Multi-source JSON mapping 
 - **Output Format**: Standardized JSON schema containing IPv4 addresses, domains, and cryptographic file hashes with metadata scoring and timestamps.
 
 ### Repository Directory Structure
@@ -29,11 +29,11 @@ ti-feed-aggregator/
 
 ## 3. Implementation Details
 
-### Configuration Management (`config/sources.json`)
+### Configuration Management 
 
 Defines external ingestion endpoints, data types (IP, domain, hash), refresh cadences, and source enablement flags to govern data collection streams.
 
-### Normalization Engine (`src/aggregator.py`)
+### Normalization Engine 
 
 The core Python script executes the following modular workflow:
 
@@ -52,4 +52,4 @@ python3 src/aggregator.py
 
 **Execution Output & Verification**
 
-![Execution Output & Verification](assets/execution.png)
+![Execution Output & Verification]
